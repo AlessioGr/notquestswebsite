@@ -23,11 +23,11 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/downloads/notquests-paper-3.0.1.jar" className={styles.card}>
             <h2>PaperMC &rarr;</h2>
-            <p>Choose this if your server runs on Paper!</p>
+            <p>Choose this if your server runs on Paper! This version will use modern chat components.</p>
           </a>
           <a href="/downloads/notquests-spigot-3.0.1.jar" className={styles.spigot}>
-            <h2>Spigot &rarr;</h2>
-            <p>Choose this if your server runs on spigot.</p>
+            <h2>spigot &rarr;</h2>
+            <p>Choose this if your server runs on spigot. This version will use deprecated legacy messages.</p>
           </a>
 
         </div>
